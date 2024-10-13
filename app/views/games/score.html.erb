@@ -1,0 +1,8 @@
+<h1>Result</h1>
+<p>Sorry but <strong><%= @word.upcase %></strong> can't be built out of <%= @letters.join(', ') %></p>
+
+<% if @score %>
+  <p>Your score: <%= @score %></p>
+<% end %>
+
+<%= link_to 'Play Again', new_game_path, class: "btn btn-primary" %>

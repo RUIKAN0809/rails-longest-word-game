@@ -13,3 +13,73 @@
  *= require_tree .
  *= require_self
  */
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Light gray background */
+  color: #333; /* Dark gray text */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Styles */
+h1 {
+  font-size: 2.5rem; /* Large header */
+  margin-top: 20px;
+  color: #4A90E2; /* Blue color */
+}
+
+/* Form Styles */
+form {
+  background-color: #ffffff; /* White background for form */
+  padding: 20px; /* Padding around form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin: 20px 0;
+}
+
+/* Input Field Styles */
+input[type="text"] {
+  width: 100%; /* Full-width input */
+  padding: 10px; /* Padding inside input */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1rem; /* Standard font size */
+  margin-bottom: 10px; /* Space below input */
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+  background-color: #4A90E2; /* Blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px 15px; /* Padding inside button */
+  font-size: 1rem; /* Standard font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+input[type="submit"]:hover {
+  background-color: #357ABD; /* Darker blue on hover */
+}
+
+/* Result Message Styles */
+.result-message {
+  font-size: 1.2rem; /* Slightly larger text for results */
+  margin-top: 20px; /* Space above results */
+  color: #E74C3C; /* Red color for error messages */
+}
+
+/* Link Styles */
+a {
+  text-decoration: none; /* No underline */
+  color: #4A90E2; /* Blue color for links */
+  font-weight: bold; /* Bold links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
